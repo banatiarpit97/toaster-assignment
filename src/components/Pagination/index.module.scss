@@ -1,0 +1,15 @@
+.pagination {
+    margin-top: 25px;
+    text-align: center;
+    button {
+        &:disabled {
+            opacity: 0.7;
+        }
+    }
+}
+.activePage {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    outline: none;
+}
